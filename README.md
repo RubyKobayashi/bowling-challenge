@@ -1,4 +1,7 @@
+ 1) As a player, if I scores 0 on 20 rolls, I would like to see
+   that my total score would be 0 and that the scorecard would be complete
 
+<!--
 Bowling Challenge
 =================
 
@@ -74,4 +77,4 @@ In code review we'll be hoping to see:
 * All tests passing
 * The code is elegant: every class has a clear responsibility, methods are short etc.
 
-Reviewers will potentially be using this [code review rubric](docs/review.md).  Note that referring to this rubric in advance may make the challenge somewhat easier.  You should be the judge of how much challenge you want.
+Reviewers will potentially be using this [code review rubric](docs/review.md).  Note that referring to this rubric in advance may make the challenge somewhat easier.  You should be the judge of how much challenge you want. -->
