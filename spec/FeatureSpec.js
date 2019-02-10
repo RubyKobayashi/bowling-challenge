@@ -30,7 +30,7 @@ describe('FeatureTest', function(){
 
   describe('if player scores 1 20 times', function(){
 
-    it('completes the scorecard', function(){
+    it('score total will be 20', function(){
       var times = 20;
       for(var i=0; i < times; i++){
       scorecard.roll(1);
