@@ -12,13 +12,18 @@ describe('Scorecard', function(){
 
 
     describe('Total', function(){
+
         it('score starts off at 0', function(){
         expect(scorecard.total()).toEqual(0)
       });
 
       it('calculates the score', function(){
-
         expect(scorecard.total()).toEqual(0)
+        var times = 20;
+        for(var i=0; i < times; i++){
+        scorecard.roll(1);
+        }
+       expect(scorecard.total()).toEqual(20)
       });
       });
 

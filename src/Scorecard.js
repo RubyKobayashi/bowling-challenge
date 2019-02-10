@@ -9,6 +9,7 @@ function Scorecard(){
 
 
   Scorecard.prototype.roll = function(roll){
+    this._total += roll
     this._frames.push(roll);
   };
 

@@ -1,6 +1,9 @@
  1) As a player, if I scores 0 on 20 rolls, I would like to see
    that my total score would be 0 and that the scorecard would be complete
 
+2) As a player, if I scores 1 on each roll, I would like to see
+  that my total score would be 20 and that the scorecard would be complete
+
 <!--
 Bowling Challenge
 =================
